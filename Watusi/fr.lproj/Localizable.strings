@@ -8,7 +8,7 @@
 
 "PRIVACY_LABEL" = "Confidentialité";
 
-"FREEZE_LASTSEEN_LABEL" = "Congeler dernière connexion";
+"FREEZE_LASTSEEN_LABEL" = "Congeler la dernière connexion";
 "FREEZE_LASTSEEN_DESC" = "Vous ne serez pas affiché en ligne et votre dernière connexion ne sera pas mise à jour lorsque vous ouvrez WhatsApp";
 
 "DISABLE_READ_RECEIPTS_LABEL" = "Désactiver les reçus de lecture";
@@ -28,14 +28,14 @@
 
 "DISABLE_RECORDING_LABEL" = "Désactiver l'indicateur d'enregistrement";
 "DISABLE_RECORDING_DESC" = "Vos contacts ne vous verront pas faire un enregistrement";
-"NEVER_SEND_RECORDING_TO" = "N'envoyez jamais d'enregistrement à ...";
+"NEVER_SEND_RECORDING_TO" = "Ne jamais envoyer d'enregistrement à ...";
 "FORCE_SEND_RECORDING_TO" = "Forcer l'envoi de d'enregistrement à ...";
 
 "WHITELIST" = "Liste blanche";
 "BLACKLIST" = "Liste noire";
 "SEND_READ_RECEIPTS_BUTTON" = "Envoyer les reçus de lecture";
 "SEND_TYPING_INDICATOR_BUTTON" = "Montrer l'indicateur de saisie";
-"SEND_RECORDING_INDICATOR_BUTTON" = "Envoyer l'indicateur d'enregistrement";
+"SEND_RECORDING_INDICATOR_BUTTON" = "Envoyer l'indicateur de vocaux";
 
 "SHOW_READ_TYPING_ON_INFO_PAGE_DESC" = "Afficher les contrôles de lecture et les commandes de l'indicateur de saisie sur votre page d'information de contact afin d'activer/désactiver directement pour ce contact.";
 "SHOW_READ_TYPING_ON_INFO_PAGE_LABEL" = "Contrôles sur la page d'information";
@@ -109,13 +109,13 @@
 
 "CHATS_ADDONS_LABEL" = "Réglages pour les discussions";
 
-"REVOKE_MESSAGES_DISABLE_LIMIT_LABEL" = "Enlever la limite";
-"REVOKE_MESSAGES_DISABLE_LIMIT_DESC" = "Enlever la limte des messages de 7 minutes";
+"REVOKE_MESSAGES_DISABLE_LIMIT_LABEL" = "Enlever la limite de 7 minutes";
+"REVOKE_MESSAGES_DISABLE_LIMIT_DESC" = "Enlever la limte des messages supprimés (7minutes)";
 
-"REVOKE_MESSAGES_DISABLE_CONTACTS_REVOKING_LABEL" = "Conserver les msg supprimés des contacts";
+"REVOKE_MESSAGES_DISABLE_CONTACTS_REVOKING_LABEL" = "Conserver les msg supprimés";
 "REVOKE_MESSAGES_DISABLE_CONTACTS_REVOKING_DESC" = "Les messages que vos contacts supprime ne seront pas supprimés et afficheront une icône pour indiquer que votre contact l'a supprimé.";
 
-"ABOUT_ON_CHATS_DESC" = "Montre l'actu des contacts sur une petite bannière en dessous de la barre des dernière visite";
+"ABOUT_ON_CHATS_DESC" = "Montre l'actu des contacts sur une petite bannière en dessous de la barre des dernière connexion";
 "ABOUT_ON_CHATS_LABEL" = "Actu dans les discussions";
 
 "TAP_TO_RECORD_DESC" = "Tapez une fois pour commencer l'enregistrement et appuyez de nouveau pour envoyer ou appuyez et glissez pour supprimer l'enregistrement.";
@@ -125,8 +125,8 @@
 "DISABLE_CONTINUOUS_VOICES_PLAYBACK_LABEL" = "Désactiver la lecture continue";
 "DISABLE_CONTINUOUS_VOICES_PLAYBACK_DESC" = "Empêcher WhatsApp de lire en continu le message audio suivant automatiquement";
 
-"DISABLE_FORWARD_INDICATOR_LABEL" = "Masquer l'indicateur des msg transferés";
-"DISABLE_FORWARD_INDICATOR_DESC" = "Masquer l'indicateur 'Transferé' lorsque vous transferez un message à vos contacts";
+"DISABLE_FORWARD_INDICATOR_LABEL" = "Masquer l'indicateur transférer";
+"DISABLE_FORWARD_INDICATOR_DESC" = "Masquer l'indicateur 'Transférer' lorsque vous transferez un message à vos contacts";
 
 "CALL_CONFIRM_DESC" = "Obtenez une alerte de confirmation lorsque vous appuyez sur les boutons d'appel vocal ou vidéo, vous pouvez également choisir entre un appel WhatsApp ou un appel réseaux.";
 "CALL_CONFIRM_LABEL" = "Confirmation d'appel";
@@ -196,8 +196,8 @@
 "ARCHIVE_LOCK_UNARCHIVE_ACTION_MESSAGE" = "La conversation est verrouillé dans l'archive. \ NVous souhaitez débloquer la discussion de l'archive et l'annuler?";
 "ARCHIVE_LOCK_UNARCHIVE_ACTION_BUTTON" = "Débloquer et désarchiver";
 
-"UNLIMITED_PINNED_CHATS_LABEL" = "Chats épinglés illimités";
-"UNLIMITED_PINNED_CHATS_DESC" = "Épingler plus de 3 discutions";
+"UNLIMITED_PINNED_CHATS_LABEL" = "discussion épinglés illimités";
+"UNLIMITED_PINNED_CHATS_DESC" = "Épingler plus de 3 discussions";
 
 "GROUPS_LIST_DESC" = "Ajoute un bouton de barre de navigation pour ouvrir une liste de tous vos groupes.";
 "GROUPS_LIST_LABEL" = "Liste des groupes";
@@ -226,14 +226,14 @@
 "SWIPE_FOR_CONTACT_INFO_BUTTON" = "Info";
 
 "CLEAR_CHATS_BUTTON_DESC" = "Ajouter un bouton d'effacement dans le menu d'édition de la liste des chats pour effacer les discussions";
-"CLEAR_CHATS_BUTTON_LABEL" = "Effacer le bouton Chats";
+"CLEAR_CHATS_BUTTON_LABEL" = "Effacer le bouton discussion";
 "CLEAR_CHATS_CLEAR_BUTTON" = "Effacer";
 "CLEAR_SELECTED_CHATS_BUTTON" = "Effacer les chats sélectionnés";
 "CLEAR_ALL_CHATS_BUTTON" = "Effacer toutes les discussions";
 "CLEAR_ALL_CHATS_DESCRIPTION" = "Effacer tout le contenu du chat, y compris archivé";
 
-"GROUP_AND_BROADCAST_SELECT_ALL_DESC" = "Ajouter un nouveau bouton dans le sélecteur de groupe/diffusion pour sélectionner/désélectionner tous les contacts. Cela contournera également la limite des 256 contacts. REMARQUE: il n'est pas possible d'ajouter plus de 256 membres dans un groupe sur le serveur mais vous les gars peuvent essayer.";
-"GROUP_AND_BROADCAST_SELECT_ALL_LABEL" = "Sélectionner tous les Groupes/diffusions";
+"GROUP_AND_BROADCAST_SELECT_ALL_DESC" = "Ajouter un nouveau bouton dans le sélecteur de groupe/diffusion pour sélectionner/désélectionner tous les contacts. Cela contournera également la limite des 256 contacts. REMARQUE: il n'est pas possible d'ajouter plus de 256 membres dans un groupe sur le serveur.";
+"GROUP_AND_BROADCAST_SELECT_ALL_LABEL" = "Sélectionner tous les groupes";
 "GROUP_AND_BROADCAST_SELECT_ALL_BUTTON" = "Tous";
 "GROUP_AND_BROADCAST_DESELECT_ALL_BUTTON" = "Aucun";
 
@@ -276,7 +276,7 @@
 "MEDIA_LABEL" = "Réglages des médias";
 
 "SHARE_SHEET_DESC" = "Ajoutez plus d'options à la feuille de partage de médias WhatsApp, par exemple en envoyant la dernière photo en mode caméra, partage de musique, bloquer / débloquer le contact.";
-"SHARE_SHEET_LABEL" = "Partage de la feuille";
+"SHARE_SHEET_LABEL" = "Feuille de partage personnalisé";
 "SHARE_SHEET_ACTIVE_BUTTONS" = "Boutons actifs";
 "SHARE_SHEET_STYLE" = "Style";
 "SHARE_SHEET_STYLE_DEFAULT" = "Par défaut";
@@ -543,16 +543,16 @@
 "CONTACT_AND_MORE_LABEL" = "Contact & Plus";
 "CONTACT_AND_MORE_PAGE_TITLE" = "Support";
 "CONTACT_SUPPORT_SECTION_TITLE" = "Support";
-"CONTACT_SUPPORT_LABEL" = "Contact Support";
+"CONTACT_SUPPORT_LABEL" = "Contacter le support";
 "VERSIONS_TITLE" = "Versions";
 "UPDATES_SECTION_TITLE" = "Mise à jour";
-"AUTO_CHECK_FOR_UPDATES_LABEL" = "Vérifié automatiquement les mises à jour";
-"CHECK_FOR_UPDATES_BUTTON" = "Vérifié mise à jour";
+"AUTO_CHECK_FOR_UPDATES_LABEL" = "Vérifier auto les mises à jour";
+"CHECK_FOR_UPDATES_BUTTON" = "Vérifier maintenant";
 "SETTINGS_SECTION_TITLE" = "Réglages";
 "RESET_SETTINGS_LABEL" = "Réinitialiser les réglages";
 "RESET_SETTINGS_ALERT_MESSAGE" = "Cela supprimera toutes vos régages Watusi et le réinitialisera à ses valeurs par défaut.";
 "RESET_SETTINGS_BUTTON" = "Réinitialiser";
-"HIDE_SETTINGS_LABEL" = "Masquer les paramètres";
+"HIDE_SETTINGS_LABEL" = "Masquer les paramètres Watusi";
 "HIDE_SETTINGS_ALERT_TITLE" = "ATTENTION!";
 "HIDE_SETTINGS_ALERT_MESSAGE" = "Cela masquera la ligne des paramètres Watusi des paramètres WhatsApp et la rendra accessible via un bouton transparent à droite de la barre de navigation des paramètres WhatsApp.";
 "TWEAK_LANGUAGE_LABEL" = "Langue";
